@@ -1,12 +1,47 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .vertical-menu {
+            width: 200px;
+        }
+
+            .vertical-menu a {
+                background-color: #eee;
+                color: black;
+                display: block;
+                padding: 12px;
+                text-decoration: none;
+            }
+
+                .vertical-menu a:hover {
+                    background-color: #ccc;
+                }
+
+                .vertical-menu a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+    </style>
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
 
-     <img src="Photos/amelia1.jpg" width="600" height="600">
+
+    <img src="Photos/amelia1.jpg" width="150" height="150">
+    <h1>Menu</h1>
+
+    <div class="vertical-menu">
+        <a href="#" class="active">Home</a>
+        <a href="Photos/amelia1.jpg">Photo1</a>
+        <a href="Photos/amelia2.jpg">Photo2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </div>
+
+    
 
 </body>
 </html>
